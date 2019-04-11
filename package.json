@@ -1,0 +1,32 @@
+{
+  "name": "typescript-starter-kit",
+  "version": "1.0.0",
+  "description": "Please feel free to clone this repo to quickly begin developing and trying out Typescript features in your local development environment.  \r Note: Visual Studio Code is optional to use, but recommended as I've included build, watch and debug tasks for use with Visual Studio code.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --mode development",
+    "wp": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joarkm/typescript-starter-kit.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joarkm/typescript-starter-kit/issues"
+  },
+  "homepage": "https://github.com/joarkm/typescript-starter-kit#readme",
+  "dependencies": {
+    "rxjs": "^6.4.0",
+    "ts-loader": "^5.3.3",
+    "typescript": "^3.4.2",
+    "webpack": "^4.29.6",
+    "webpack-dev-server": "^3.3.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.3.0"
+  }
+}
